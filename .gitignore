@@ -1,0 +1,5 @@
+recomputed/
+.Rhistory
+.RData
+.Rproj.user/
+*.log
