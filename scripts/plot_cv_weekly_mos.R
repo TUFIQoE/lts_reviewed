@@ -15,7 +15,7 @@ PANEL_TITLES <- c(all_weeks = "All valid rated weeks (N = %d)",
 SERIES_LABELS <- c(observed = "Observed MOS", opt_k = "Kumaraswamy",
                    mean = "Unweighted mean", odd = "Odd days")
 MODELS <- list(all_weeks = c("opt_k", "mean"),
-               complete = c("odd", "opt_k"))
+               complete = c("opt_k", "odd"))
 # Styles follow the series position in each panel: observed, model 1, model 2.
 COLORS <- c("black", "#246D96", "#D4573B")
 LINE_TYPES <- c(1, 2, 3)
